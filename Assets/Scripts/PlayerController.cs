@@ -3,7 +3,6 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;         // Player movement speed
-    public float jumpForce = 5f;         // Jump force
     public LayerMask groundLayer;        // Layer(s) considered as ground
     public float groundCheckDistance = 0.1f; // Distance to check for ground contact
     public float slopeFactor = 5f;       // Factor to control rolling down hills
@@ -38,11 +37,6 @@ public class PlayerController : MonoBehaviour
         }
 
         rb.velocity = new Vector3(movement.x, rb.velocity.y, movement.z);
-
-        // Handle player jump
-        if (isGrounded && Input.GetKeyDown(KeyCode.Space))
-        {
-            rb.AddForce(new Vector3(0f, jumpForce, 0f), ForceMode.Impulse);
-        }
     }
 }
+
