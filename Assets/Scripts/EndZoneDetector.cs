@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NextLevel : MonoBehaviour
+public class EndZoneDetector : MonoBehaviour
 {
     public GameObject continueMenuUI;
 
