@@ -8,13 +8,13 @@ public class PlayerController : MonoBehaviour
     public float groundCheckDistance = 0.1f; // Distance to check for ground contact
     public float slopeFactor = 5f;       // Factor to control rolling down hills
 
+    [SerializeField] private bool isGrounded = false;  // Flag to check if the player is grounded
+
     private Rigidbody rb;                // Reference to the player's Rigidbody component
-    private bool isGrounded = false;     // Flag to check if the player is grounded
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
-        rb.centerOfMass = Vector3.zero;  // Reset the center of mass to avoid undesired rolling effects
     }
 
     private void Update()

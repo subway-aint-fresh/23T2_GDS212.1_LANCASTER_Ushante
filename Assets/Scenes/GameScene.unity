@@ -748,8 +748,9 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
-  groundCheckDistance: 1
+  groundCheckDistance: 2
   slopeFactor: 1
+  isGrounded: 0
 --- !u!1 &1583588610 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2490716147243064207, guid: a1ee089b1415e6d41ba60b38ed883e54, type: 3}
