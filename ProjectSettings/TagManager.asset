@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - SpawnTrigger
+  - EndZone
   layers:
   - Default
   - TransparentFX
