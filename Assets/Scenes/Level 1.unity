@@ -1797,8 +1797,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1964741802}
     - target: {fileID: 8651698289750694268, guid: fab5cec00701a0e4b922a165f974dd1c, type: 3}
+      propertyPath: slopeFactor
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8651698289750694268, guid: fab5cec00701a0e4b922a165f974dd1c, type: 3}
       propertyPath: externalForce
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8651698289750694268, guid: fab5cec00701a0e4b922a165f974dd1c, type: 3}
       propertyPath: groundLayer.m_Bits
@@ -2218,8 +2222,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.92753094, b: 0.7798742, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1.36
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
