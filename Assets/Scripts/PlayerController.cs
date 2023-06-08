@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody rb;                  // Reference to the player's Rigidbody component
 
     public GameObject wagonFire;           // Reference to the fire particles on the player controller
+    public GameObject replayMenu;          // Reference to replay menu UI Object
 
     private void Awake()
     {
@@ -58,6 +59,7 @@ public class PlayerController : MonoBehaviour
             wagonFire.SetActive(false);
 
             // Throw up replay/back to main menu prompt
+            replayMenu.SetActive(true);
 
         }
     }
