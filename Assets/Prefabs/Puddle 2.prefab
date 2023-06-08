@@ -44,7 +44,6 @@ GameObject:
   - component: {fileID: 1168270879482574448}
   - component: {fileID: 1168270879482574451}
   - component: {fileID: 1168270879482574450}
-  - component: {fileID: 1168270879482574349}
   m_Layer: 0
   m_Name: SM_Env_Ice_02 (1)
   m_TagString: Untagged
@@ -117,20 +116,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1168270879482574349
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1168270879482574348}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 43983489843483922, guid: 19d64acbb0561d144a4d9f9ebedfe00f, type: 2}
 --- !u!1 &6658868924971875321
 GameObject:
   m_ObjectHideFlags: 0
