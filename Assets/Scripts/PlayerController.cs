@@ -52,11 +52,13 @@ public class PlayerController : MonoBehaviour
         {
             // Stop player movement
             moveSpeed = 0f;
+            externalForce = 0f;
 
             // Set fire particle on player controller to inactive
             wagonFire.SetActive(false);
 
             // Throw up replay/back to main menu prompt
+
         }
     }
 }

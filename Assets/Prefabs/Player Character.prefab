@@ -14544,7 +14544,7 @@ MonoBehaviour:
   slopeFactor: 20
   externalForce: 2
   isGrounded: 0
-  wagonFire: {fileID: 7118771413623800130}
+  wagonFire: {fileID: 0}
 --- !u!1 &4570755648860614185
 GameObject:
   m_ObjectHideFlags: 0
