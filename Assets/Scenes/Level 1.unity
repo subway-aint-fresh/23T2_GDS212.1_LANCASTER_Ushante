@@ -2848,13 +2848,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: ToolTip Popup
       objectReference: {fileID: 0}
+    - target: {fileID: 3784584722680648954, guid: 6bbd70db123597f458df0e20a0901ed4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3784584722680648955, guid: 6bbd70db123597f458df0e20a0901ed4, type: 3}
       propertyPath: m_Pivot.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3784584722680648955, guid: 6bbd70db123597f458df0e20a0901ed4, type: 3}
       propertyPath: m_Pivot.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3784584722680648955, guid: 6bbd70db123597f458df0e20a0901ed4, type: 3}
       propertyPath: m_RootOrder
@@ -2914,11 +2918,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3784584722680648955, guid: 6bbd70db123597f458df0e20a0901ed4, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 141
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 3784584722680648955, guid: 6bbd70db123597f458df0e20a0901ed4, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 62
+      value: 56.591
       objectReference: {fileID: 0}
     - target: {fileID: 3784584722680648955, guid: 6bbd70db123597f458df0e20a0901ed4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
