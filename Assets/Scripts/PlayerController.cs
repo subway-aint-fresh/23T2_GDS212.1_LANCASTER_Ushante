@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody rb;                // Reference to the player's Rigidbody component
 
+    public GameObject wagonFire;           // Reference to the fire particles on the player controller
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -38,5 +40,24 @@ public class PlayerController : MonoBehaviour
 
         rb.velocity = new Vector3(movement.x, rb.velocity.y, movement.z);
     }
+    
+    private void OnTriggerEnter(Collider other){
+
+        //if player collides with an object with the 'WaterHazard' tag
+        if (other.CompareTag("WaterHazard")){
+
+            //stop player movement
+            moveSpeed =0f;
+
+            //set fire particle on player controller to inactive
+            wagonFire.SetActive(false);
+
+            //throw up replay/ back to main menu prompt
+
+        }   
+    }
 }
+        
+            
+            
 
