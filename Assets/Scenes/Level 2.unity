@@ -753,6 +753,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7118771413623800130, guid: fab5cec00701a0e4b922a165f974dd1c, type: 3}
   m_PrefabInstance: {fileID: 1215181157}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &481015721 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3294919226412865920, guid: fab5cec00701a0e4b922a165f974dd1c, type: 3}
+  m_PrefabInstance: {fileID: 1215181157}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1376,6 +1381,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8651698289750694268, guid: fab5cec00701a0e4b922a165f974dd1c, type: 3}
+      propertyPath: fireSound
+      value: 
+      objectReference: {fileID: 481015721}
     - target: {fileID: 8651698289750694268, guid: fab5cec00701a0e4b922a165f974dd1c, type: 3}
       propertyPath: wagonFire
       value: 

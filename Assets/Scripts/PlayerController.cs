@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
 
     public GameObject wagonFire;           // Reference to the fire particles on the player controller
     public GameObject replayMenu;          // Reference to replay menu UI Object
+    public AudioSource fireSound;          
 
     private void Awake()
     {
@@ -55,8 +56,9 @@ public class PlayerController : MonoBehaviour
             moveSpeed = 0f;
             externalForce = 0f;
 
-            // Set fire particle on player controller to inactive
+            // Set fire particle and sound on player controller to inactive/ off
             wagonFire.SetActive(false);
+            fireSound.Stop();
 
             // Throw up replay/back to main menu prompt
             replayMenu.SetActive(true);
